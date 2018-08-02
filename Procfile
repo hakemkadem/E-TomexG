@@ -1,1 +1,1 @@
-web: gunicorn ponynote  .wsgi --log-file -
+web: gunicorn ponynote.wsgi --log-file -
