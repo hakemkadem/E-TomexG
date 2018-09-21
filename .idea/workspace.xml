@@ -2,7 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27d3aaa-ce07-4584-bd04-34e494f98567" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Client/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provider/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/topex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/AdminPackage/AdminPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/AdminPackage/NewUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Confirmation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Contents/CompanyContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Contents/CompanyHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/topex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topex/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/css/main.c17080f1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/css/main.c17080f1.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/js/main.d3db2876.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/js/main.d3db2876.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/media/logo.5d5d9eef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/PonyNote.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/PonyNote.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/migrations/0002_album.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/migrations/0003_track.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/migrations/0004_note_owner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ponynote/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ponynote/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ponynote/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ponynote/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-stats.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-stats.prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-stats.prod.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,88 +87,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Counter.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/Counter.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PonyNote.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/PonyNote.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.prod.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ponynote/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            <state relative-caret-position="270">
+              <caret line="166" column="79" lean-forward="true" selection-start-line="166" selection-start-column="79" selection-end-line="166" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topex/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack-stats.prod.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack-stats.prod.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack-stats.dev.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack-stats.dev.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/bundles/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ponynote/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production_settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ponynote/production_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#632#674#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,17 +152,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http</find>
-      <find>https</find>
-      <find>webpackHotdevclient</find>
-      <find>localhost</find>
-      <find>BundleTracker</find>
       <find>cssFilename</find>
       <find>root</find>
       <find>sta</find>
       <find>publicPath</find>
-      <find>STATICFILES_DIRS</find>
       <find>wsgi</find>
+      <find>build</find>
+      <find>STATICFILES_DIRS</find>
+      <find>Gomex</find>
+      <find>Confirmation</find>
+      <find>user_type</find>
+      <find>uaer_type</find>
+      <find>console</find>
+      <find>log</find>
+      <find>awe</find>
+      <find>cont</find>
+      <find>a{</find>
+      <find>content</find>
+      <find>AdminRMenu</find>
+      <find>isAuth</find>
+      <find>conso</find>
+      <find>cons</find>
+      <find>USER_LOADED</find>
+      <find>filter</find>
+      <find>1.png</find>
+      <find>karam.png</find>
+      <find>src={url1}</find>
+      <find>publicUrl</find>
+      <find>media</find>
+      <find>png</find>
+      <find>staticfiles</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,48 +190,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/package.json" />
-        <option value="$PROJECT_DIR$/frontend/config/webpackDevServer.config.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/NotFound.jsx" />
-        <option value="$PROJECT_DIR$/frontend/reducers/notes.js" />
-        <option value="$PROJECT_DIR$/frontend/reducers/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/actions/index.js" />
-        <option value="$PROJECT_DIR$/note/serialiers.py" />
-        <option value="$PROJECT_DIR$/Posts/models.py" />
-        <option value="$PROJECT_DIR$/Posts/endpoint.py" />
-        <option value="$PROJECT_DIR$/Posts/api.py" />
-        <option value="$PROJECT_DIR$/note/models.py" />
-        <option value="$PROJECT_DIR$/note/endpoints.py" />
-        <option value="$PROJECT_DIR$/ponynote/urls.py" />
-        <option value="$PROJECT_DIR$/note/serializers.py" />
-        <option value="$PROJECT_DIR$/note/api.py" />
-        <option value="$PROJECT_DIR$/frontend/src/actions/notes.js" />
-        <option value="$PROJECT_DIR$/frontend/src/actions/owner.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/frontend/src/index.js" />
-        <option value="$PROJECT_DIR$/frontend/public/index.html" />
-        <option value="$PROJECT_DIR$/frontend/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/frontend/src/reducers/owner.js" />
-        <option value="$PROJECT_DIR$/frontend/src/reducers/notes.js" />
         <option value="$PROJECT_DIR$/frontend/src/reducers/counter.js" />
-        <option value="$PROJECT_DIR$/frontend/src/App.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/Counter.jsx" />
-        <option value="$PROJECT_DIR$/frontend/config/paths.js" />
         <option value="$PROJECT_DIR$/frontend/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/ponynote/production_settings.py" />
-        <option value="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/PonyNote.jsx" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/frontend/config/paths.js" />
+        <option value="$PROJECT_DIR$/frontend/public/index.html" />
+        <option value="$PROJECT_DIR$/frontend/config/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/note/endpoints.py" />
+        <option value="$PROJECT_DIR$/frontend/src/components/UnconfirmComp.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Confirmation.jsx" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/note/models.py" />
+        <option value="$PROJECT_DIR$/Provider/models.py" />
+        <option value="$PROJECT_DIR$/Client/models.py" />
+        <option value="$PROJECT_DIR$/frontend/src/actions/notes.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Footer/Footer.js" />
+        <option value="$PROJECT_DIR$/frontend/src/reducers/notes.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/AdminPanel.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Header/header.jsx" />
+        <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/frontend/src/components/AdminPackage/AdminPanel.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/components/AdminPackage/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Login.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/components/PonyNote.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/actions/auth.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Register.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/components/AdminPackage/NewUsers.js" />
+        <option value="$PROJECT_DIR$/frontend/src/reducers/topex.js" />
+        <option value="$PROJECT_DIR$/topex/serializers.py" />
+        <option value="$PROJECT_DIR$/topex/endpoints.py" />
+        <option value="$PROJECT_DIR$/frontend/src/actions/topex.js" />
+        <option value="$PROJECT_DIR$/topex/api.py" />
+        <option value="$PROJECT_DIR$/frontend/src/reducers/auth.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Provider/Main.js" />
+        <option value="$PROJECT_DIR$/frontend/src/App.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Header/header.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/AdminPackage/AdminPanel.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Contents/CompanyHome.js" />
+        <option value="$PROJECT_DIR$/frontend/src/index.css" />
+        <option value="$PROJECT_DIR$/note/api.py" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Contents/CompanyContent.js" />
+        <option value="$PROJECT_DIR$/note/serializers.py" />
+        <option value="$PROJECT_DIR$/ponynote/urls.py" />
+        <option value="$PROJECT_DIR$/topex/models.py" />
         <option value="$PROJECT_DIR$/ponynote/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1385" />
-    <option name="height" value="745" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="31" />
+    <option name="y" value="16" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,11 +265,6 @@
               <item name="E-TomexG" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-TomexG" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="E-TomexG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E-TomexG" type="462c0819:PsiDirectoryNode" />
-              <item name="ponynote" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -203,11 +275,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="reducers&#9;FILE&#9;file://E:/Django-React-Angular Projects/ReactDjangoApp2018/ponynote/frontend/node_modules/redux/src/combineReducers.js" />
-    <property name="last_opened_file_path" value="D:/Dropbox/TomexAd/TomexAd2/TomexG/TomexGroup" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../alpertuna-react-metismenu-bcd8fcb" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django-React-Angular Projects\ReactDjangoApp2018\E-TomexG1\E-TomexG\assets\bundles\media" />
+      <recent name="E:\Django-React-Angular Projects\ReactDjangoApp2018\E-TomexG1\E-TomexG\assets\bundles" />
+      <recent name="E:\Django-React-Angular Projects\ReactDjangoApp2018\E-TomexG1\E-TomexG\frontend\src\components" />
+      <recent name="E:\Django-React-Angular Projects\ReactDjangoApp2018\E-TomexG1\E-TomexG\Provider" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Django-React-Angular Projects\ReactDjangoApp2018\E-TomexG1\E-TomexG\frontend\src\components\AdminPackage" />
       <recent name="E:\Django-React-Angular Projects\ReactDjangoApp2018\ponynote\frontend\src" />
     </key>
   </component>
@@ -237,370 +316,384 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84501064" visible="true" weight="0.22405817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84501064" visible="true" weight="0.3106411" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37606838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47863248" />
       <window_info id="Favorites" order="2" sideWeight="0.15498939" side_tool="true" weight="0.24983476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84501064" visible="true" weight="0.24983476" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84501064" visible="true" weight="0.16853933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37891737" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.15498939" side_tool="true" weight="0.24983476" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36324787" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.15498939" side_tool="true" weight="0.24983476" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ponynote/production_settings.py">
+    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/actions/notes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Register.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/PonyNote.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
+    <entry file="file://$PROJECT_DIR$/assets/bundles/media/loader.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/topex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5328">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        <state relative-caret-position="134">
+          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ponynote/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3024">
-          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/notes.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5304">
-          <caret line="221" column="12" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ponynote/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2136">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/DjangoReactApp/venv/Lib/site-packages/webpack_loader/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Posts/models.py" />
-    <entry file="file://$PROJECT_DIR$/Posts/endpoint.py" />
-    <entry file="file://$PROJECT_DIR$/Posts/api.py" />
-    <entry file="file://$USER_HOME$/PycharmProjects/DjangoReactApp/venv/Lib/site-packages/rest_framework/routers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/topex/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/DjangoReactApp/venv/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+        <state relative-caret-position="351">
+          <caret line="1033" column="33" lean-forward="true" selection-start-line="1033" selection-start-column="33" selection-end-line="1033" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ponynote/urls.py">
+    <entry file="file://$PROJECT_DIR$/ponynote/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/DjangoReactApp/venv/Lib/site-packages/rest_framework/routers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="140">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/note/endpoints.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/actions/topex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topex/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topex/endpoints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/actions/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/note/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topex/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="435">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/AdminPackage/AdminPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2620#0" />
+            <element signature="e#0#2620#0" />
+            <element signature="e#0#2620#0" />
+            <element signature="e#0#2620#0" />
+            <element signature="e#0#2620#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/AdminPackage/NewUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="339" column="6" selection-start-line="339" selection-start-column="6" selection-end-line="339" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/note/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="247">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#32#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bundles/media/fontawesome-webfont.912ec66d.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bundles/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bundles/js/main.8b3d58cb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret column="478763" selection-start-column="478763" selection-end-column="478763" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Contents/CompanyHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#2615#0" />
+            <element signature="e#0#2615#0" />
+            <element signature="e#0#2615#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Contents/CompanyContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/note/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="287">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/actions/index.js">
+    <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
+        <state relative-caret-position="-1184" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/actions/owner.js">
+    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="109">
+          <caret line="207" column="33" selection-start-line="207" selection-start-column="28" selection-end-line="207" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpackDevServer.config.js">
+    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="168">
+          <caret line="223" column="22" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/bundles/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="10" selection-end-column="10" />
+        <state>
+          <caret column="1037" selection-start-column="1037" selection-end-column="1037" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/public/index.html">
+    <entry file="file://$PROJECT_DIR$/webpack-stats.prod.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/index.js">
+    <entry file="file://$PROJECT_DIR$/webpack-stats.dev.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bundles/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/karam_YqXxu7e.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/actions/notes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/media/karam.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/notes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/staticfiles/staticfiles.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/owner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/karam.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/NotFound.jsx">
+    <entry file="file://$PROJECT_DIR$/assets/bundles/asset-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/reducers/counter.js">
+    <entry file="file://$PROJECT_DIR$/topex/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="192">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/redux/src/combineReducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/bundles/media/karam.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/js/calendar.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.dev.js">
+    <entry file="file://$PROJECT_DIR$/assets/bundles/js/main.ac3e7bf9.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="184" column="27" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Counter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.config.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/PonyNote.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ponynote/production_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret column="478767" selection-start-column="478764" selection-end-column="478767" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ponynote/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="270">
+          <caret line="166" column="79" lean-forward="true" selection-start-line="166" selection-start-column="79" selection-end-line="166" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ponynote/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#632#674#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,10 +1,11 @@
 const initialState =[];
-
 export default function notes (state=initialState,action){
 let noteList = state.slice();
         switch(action.type)
             {
+
                 case 'FETCH_NOTES':
+                    state = [];
                     return [...state,...action.notes];
                 case 'ADD_NOTE':
                     return [...state,action.note];

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import {notes,owner} from '../actions';
-
+import {notes,owner,auth} from '../actions';
+import {Link} from 'react-router-dom';
+import $ from 'jquery';
 class PonyNote extends Component {
 state = {
   text: "",
@@ -12,6 +13,13 @@ state = {
 componentDidMount()
 {
     this.props.fetchNotes();
+    this.clickMe();
+}
+
+clickMe = ()=> {
+   $('#h2').on('click', function(){
+     $(this).css('color','red');
+   });
 }
 
 resetForm = () => {
@@ -34,14 +42,30 @@ submitNote = (e) => {
 }
 
   render() {
+   let AdminEl;
+     if(this.props.isAuth.isSuperuser){
+       AdminEl= (
+        <Link to="/admin">admin</Link>
+        )
+        }
+
+
+
+
+
     return (
       <div>
-        <h2>Welcome to PonyNote!</h2>
+      <i className="fa fa-plus"></i>
+        <h2 id="h2">Welcome to PonyNote!</h2>
         <hr />
+<div style={{textAlign: "right"}}>
+          {this.props.user.username} (<a onClick={this.props.logout}>logout</a>)
 
+       {AdminEl}
+        </div>
         <h3>Notes of Redux</h3>
 
-        <h3>Add new note ddd </h3>
+        <h3>Add new note ddd ok ok </h3>
 <form onSubmit={this.submitNote}>
   <input
     value={this.state.text}
@@ -63,17 +87,7 @@ submitNote = (e) => {
               </tr>
             ))}
 
-            {this.props.owners.map((note, id) => (
-              <tr key={`note_${id}`}>
-                <td>{note.name}
-                                {console.log(this.props.owners)}
 
-                </td>
-                <td><button onClick={() => this.selectForEdit(id)}>edit</button></td>
-                <td><button onClick={() => this.props.deleteName(id)}>delete</button></td>
-
-              </tr>
-            ))}
           </tbody>
         </table>
       </div>
@@ -86,28 +100,27 @@ submitNote = (e) => {
 
 const mapStateToProps = state => {
   return {
-    notes:  state.notes,
-    owners: state.owner
+    notes: state.notes,
+    user: state.auth.user,
+    isAuth:state.auth,
   }
 }
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
-   fetchNotes: ()=>{
-    dispatch(notes.fetchNotes())
+    fetchNotes: () => {
+      dispatch(notes.fetchNotes());
     },
-   addNote: (text) => {
-      dispatch(notes.addNotes(text));
+    addNote: (text) => {
+      return dispatch(notes.addNotes(text));
     },
     updateNote: (id, text) => {
-      dispatch(notes.UpdateNotes(id, text));
+      return dispatch(notes.updateNotes(id, text));
     },
     deleteNote: (id) => {
-      dispatch(notes.DeleteNotes(id));
+      dispatch(notes.deleteNotes(id));
     },
-    deleteName: (id) => {
-      dispatch(owner.DeleteNames(id));
-    },
+    logout: () => dispatch(auth.logout()),
   }
 }
 

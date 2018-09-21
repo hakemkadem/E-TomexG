@@ -1,23 +1,43 @@
 
 export const fetchNotes=()=>{
-return dispatch=>{
-let headers ={'content-type':'application/json'};
+return (dispatch,getState)=>{
+ const token = getState().auth.token;
+
+    let headers = {
+      "Content-Type": "application/json",
+    };
+
+    if (token) {
+      headers["Authorization"] = `Token ${token}`;
+    }
 return fetch('/api/note/',{headers,})
        .then(res=>res.json())
        .then(notes=>{
+
        dispatch({
        type:'FETCH_NOTES',
        notes
        })
        })
+
+
 }
 
 }
 
 
 export const addNotes = text => {
-  return dispatch => {
-    let headers = {"Content-Type": "application/json"};
+  return (dispatch,getState) => {
+  const token = getState().auth.token;
+
+    let headers = {
+      "Content-Type": "application/json",
+    };
+
+    if (token) {
+      headers["Authorization"] = `Token ${token}`;
+    }
+
     let body = JSON.stringify({text, });
     return fetch("/api/note/", {headers, method: "POST", body})
       .then(res => res.json())
@@ -31,10 +51,19 @@ export const addNotes = text => {
 }
 
 
-export const UpdateNotes = (index, text) => {
+export const updateNotes = (index, text) => {
   return (dispatch, getState) => {
 
-    let headers = {"Content-Type": "application/json"};
+    const token = getState().auth.token;
+
+    let headers = {
+      "Content-Type": "application/json",
+    };
+
+    if (token) {
+      headers["Authorization"] = `Token ${token}`;
+    }
+
     let body = JSON.stringify({text, });
     let noteId = getState().notes[index].id;
 
@@ -51,10 +80,18 @@ export const UpdateNotes = (index, text) => {
 }
 
 
-export const DeleteNotes= (index)=>{
+export const deleteNotes= (index)=>{
   return(dispatch,getState)=>{
+const token = getState().auth.token;
 
-  let headers={'Content-Type':"application/json"};
+    let headers = {
+      "Content-Type": "application/json",
+    };
+
+    if (token) {
+      headers["Authorization"] = `Token ${token}`;
+    }
+
   let noteId= getState().notes[index].id;
 
   return fetch(`/api/note/${noteId}`,{headers,method:"DELETE"})

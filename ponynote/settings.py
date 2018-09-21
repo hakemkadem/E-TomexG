@@ -25,7 +25,7 @@ SECRET_KEY = 'hfb2ya6mpvfg0dzdds7487r3qk%%ts6jjqvg3j&_q7aaiedsyo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['evening-stream-31197.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['evening-stream-31197.herokuapp.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -38,8 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webpack_loader',
-    'note'
+    'note',
+    'rest_framework',
+    'knox',
+    'topex',
+    'Provider',
+    'Client'
 ]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -52,6 +59,13 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': ('knox.auth.TokenAuthentication',
+                                       ),
+}
+
+#
 # WEBPACK_LOADER = {
 #     'DEFAULT': {
 #             'BUNDLE_DIR_NAME': 'bundles/',
@@ -59,10 +73,12 @@ MIDDLEWARE = [
 #         }
 # }
 
+
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "assets"),
 ]
-
+#
 WEBPACK_LOADER = {
     'DEFAULT': {
             'BUNDLE_DIR_NAME': 'bundles/',
@@ -138,10 +154,10 @@ USE_TZ = True
 
 # The absolute path to the directory where collectstatic will collect static files for deployment.
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
+MEDIA_ROOT  = os.path.join(BASE_DIR, 'E:/Django-React-Angular Projects/ReactDjangoApp2018/E-TomexG1/E-TomexG/assets/bundles/media')
 # The URL to use when referring to static files (where they will be served from)
 STATIC_URL = '/static/'
-
+MEDIA_URL = '/media/'
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
