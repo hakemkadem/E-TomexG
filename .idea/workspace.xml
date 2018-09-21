@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27d3aaa-ce07-4584-bd04-34e494f98567" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/js/main.ac3e7bf9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/js/main.ac3e7bf9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Contents/CompanyContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Contents/CompanyContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ponynote/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ponynote/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ponynote/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ponynote/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-stats.prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-stats.prod.json" afterDir="false" />
-    </list>
+    <list default="true" id="f27d3aaa-ce07-4584-bd04-34e494f98567" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +47,8 @@
       <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/note/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="222">
+              <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="e#32#64#0" expanded="true" />
               </folding>
@@ -311,8 +299,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84501064" visible="true" weight="0.3106411" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84501064" weight="0.3106411" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
@@ -320,7 +309,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47863248" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47863248" />
       <window_info id="Favorites" order="2" sideWeight="0.15498939" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/note/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="222">
+          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
             <element signature="e#32#64#0" expanded="true" />
           </folding>

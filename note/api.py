@@ -45,7 +45,7 @@ class LoginAPI(generics.GenericAPIView):
                     "isAuthenticated": True,
                     "isExist":True,
                     "CustomerType": UserInfoTB.objects.filter(User_id=user.pk).first().user_type if UserInfoTB.objects.filter(User_id=user.pk).count()!=0 else "admin",
-                    "imgeUrl": "{0}{1}{2}{3}".format("https://" if request.is_secure() else "http://", request.get_host(),'/media/', UserInfoTB.objects.filter(User_id=70).first().profile_pic)
+                    "imgeUrl": "{0}{1}{2}{3}".format("https://" if request.is_secure() else "http://", request.get_host(),'/media/', UserInfoTB.objects.filter(Address='DXB').first().profile_pic)
 
 
             })
