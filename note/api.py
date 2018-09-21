@@ -1,4 +1,5 @@
 # from requests import Response
+from django.conf import settings
 from rest_framework import viewsets, permissions, parsers
 from rest_framework.decorators import api_view
 from rest_framework.renderers import JSONRenderer
@@ -26,7 +27,7 @@ class RegistrationAPI(generics.GenericAPIView):
             "isConfirmed": self.request.user.is_staff,
             "isSuperuser": self.request.user.is_superuser,
             "isAuthenticated":False,
-            "isExist": True
+            "isExist": True,
         })
 class LoginAPI(generics.GenericAPIView):
     serializer_class = LoginUserSerializer
@@ -43,7 +44,8 @@ class LoginAPI(generics.GenericAPIView):
                     "isSuperuser":user.is_superuser,
                     "isAuthenticated": True,
                     "isExist":True,
-                    "CustomerType": UserInfoTB.objects.filter(User_id=user.pk).first().user_type if UserInfoTB.objects.filter(User_id=user.pk).count()!=0 else "admin"
+                    "CustomerType": UserInfoTB.objects.filter(User_id=user.pk).first().user_type if UserInfoTB.objects.filter(User_id=user.pk).count()!=0 else "admin",
+                    "imgeUrl": "{0}{1}{2}{3}".format("https://" if request.is_secure() else "http://", request.get_host(),'/media/', UserInfoTB.objects.filter(User_id=70).first().profile_pic)
 
 
             })

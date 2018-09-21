@@ -27,7 +27,7 @@ UserStatusUpdate(id) {
 
 
 render(){
-let partialurl1="karam.png";
+let partialurl1="Myimage.png";
 let partialurl2="2.png";
 let partialurl3="3.png";
 let partialurl4="4.png";
