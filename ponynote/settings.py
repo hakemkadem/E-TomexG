@@ -40,10 +40,13 @@ INSTALLED_APPS = [
     'webpack_loader',
     'note',
     'rest_framework',
+    'rest_framework.authtoken',
+    'djoser',
     'knox',
     'topex',
     'Provider',
-    'Client'
+    'Client',
+
 ]
 
 
@@ -61,8 +64,13 @@ MIDDLEWARE = [
 
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': ('knox.auth.TokenAuthentication',
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+                                       # 'knox.auth.TokenAuthentication',
+                                       'rest_framework.authentication.TokenAuthentication',
+                                       'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
                                        ),
+    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    # 'PAGE_SIZE': 5
 }
 
 #
@@ -166,3 +174,24 @@ DATABASES['default'].update(db_from_env)
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'tomex2016@gmail.com'
+EMAIL_HOST_PASSWORD = 'zahraa2009'
+
+DJOSER = {
+'DOMAIN': 'localhost:8000',
+'SITE_NAME': 'ponynote',
+'PASSWORD_RESET_CONFIRM_URL':'password/reset/confirm',
+'ACTIVATION_URL': '#/activate/{uid}/{token}',
+'SEND_ACTIVATION_EMAIL': True,
+'PASSWORD_VALIDATORS': [],
+'SERIALIZERS': {},
+}

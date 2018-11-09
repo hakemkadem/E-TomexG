@@ -1,0 +1,50 @@
+1) Rename the name of image and file
+https://stackoverflow.com/questions/15140942/django-imagefield-change-file-name-on-upload
+https://stackoverflow.com/questions/25767787/django-cannot-create-migrations-for-imagefield-with-dynamic-upload-to-value/25768034#25768034
+2) Correct the bad request 400 in multipart/form-data
+https://github.com/github/fetch/issues/505
+3) Guid of rest-framework
+http://www.cdrf.co/3.7/rest_framework.generics/UpdateAPIView.html
+4) Uploading files and images
+https://stackoverflow.com/questions/48621130/cannot-upload-files-to-django-rest-framework-using-react-js
+5) Media_Root and Media_Url
+https://overiq.com/django/1.10/handling-media-files-in-django/
+6) Customizing the validation in serializer
+https://stackoverflow.com/questions/27591574/order-of-serializer-validation-in-django-rest-framework
+7) Customize the classes of djoser
+https://stackoverflow.com/questions/48003170/django-rest-framework-with-djoser-token-authentication-token-response?rq=1
+8) validation examples
+http://blog.josephmisiti.com/validation-using-django-rest-framework-and-django-forms
+9)General info about django restframework
+https://www.trustedhousesitters.com/engineering/code/django-rest-framework-understanging-modelserializer/
+10) send email for rest password in djoser
+https://stackoverflow.com/questions/48036832/unable-to-send-activation-email-with-djoser-in-django-rest-framework
+11) Confirm Reset Password by Email(the confirmation Email in setting is up to you what did you need
+to write "go to the external library->Site package->djoser->template and change what you want").
+https://github.com/sunscrapers/djoser/issues/26
+12) pagination api
+https://stackoverflow.com/questions/38988272/django-rest-framework-drf-how-to-set-pagination-class-depending-on-query-param
+https://code.i-harness.com/en/q/1e503ee
+https://stackoverflow.com/questions/44722221/django-rest-framework-global-pagination-parameters-not-working-for-modelviewset
+13) loading icons in react
+https://codesandbox.io/s/98vy0j9l3o
+14) sticky header idea
+https://www.w3schools.com/howto/howto_js_sticky_header.asp
+15) Extend the ModelSerializer by adding additional field(s)
+https://stackoverflow.com/questions/14583816/django-rest-framework-how-to-add-custom-field-in-modelserializer/29475731#29475731
+https://stackoverflow.com/questions/18396547/django-rest-framework-adding-additional-field-to-modelserializer
+https://stackoverflow.com/questions/37111118/update-append-serializer-data-in-django-rest-framework
+16)Pass extra parameter using context in viewSet, generic
+https://stackoverflow.com/questions/22988878/pass-extra-arguments-to-serializer-class-in-django-rest-framework/26550683
+17)The Reducer Rest
+https://github.com/reduxjs/redux/issues/1189
+https://stackoverflow.com/questions/35622588/how-to-reset-the-state-of-a-redux-store
+
+18) The react lifecycle
+https://hackernoon.com/reactjs-component-lifecycle-methods-a-deep-dive-38275d9d13c0
+https://hackernoon.com/where-to-integrate-api-calls-in-reactjs-componentwillmount-vs-componentdidmount-710085dc05c3
+
+19) scrolling infinite
+https://stackoverflow.com/questions/42796512/react-redux-infinite-scrolling-load-more-from-api
+https://brigade.engineering/to-infinity-and-beyond-with-react-waypoint-cb5ba46a9150
+http://brigade.github.io/react-waypoint/#infinite-scroll

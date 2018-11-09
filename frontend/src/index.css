@@ -3,7 +3,7 @@ html,body {
   padding: 0;
   font-family: sans-serif !important;
   height: 100% !important;
-  direction:rtl !important;
+
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -18,6 +18,7 @@ html,body {
 }
 
 .Gridcontainer {
+ direction:rtl !important;
 height: 100vh;
  display: grid;
   grid-gap: 0px;
@@ -27,18 +28,20 @@ height: 100vh;
     "h h h h h h h h h h h h"
     "c c c c c c c c c c c c"
     "f f f f f f f f f f f f";
+
 }
 
 .Gridcontainer > .header {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
   z-index: 125;
-  background-color: #4285f4;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   position: fixed;
   width: 100%;
     padding:3px;
 }
+
 .header > div {
   padding: 15px;
   font-size: 20px;
@@ -47,6 +50,7 @@ height: 100vh;
 
 
 .header > .topex {
+
     margin-right: auto;
     font-size: 20px;
     font-weight: bold;
@@ -55,7 +59,6 @@ height: 100vh;
 
 .header>.topex a{
 text-decoration:none;
-color:white !important;
 text-align:center !important;
 
 }
@@ -74,12 +77,82 @@ text-align:center !important;
   text-align: center;
 }
 
+
+.HeaderCompCustomBtn{
+    height: 40px ;
+    line-height: 33px;
+    padding: 0px 0.5rem;
+    background-color: white !important;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+    font-size: 15px !important;
+    box-shadow: 0px 0px 0px 0px !important
+}
+
+.HeaderCompCustomDropDown{
+        width:   230px!important;
+        top:     60px !important;
+        right:   270px!important;
+        padding: 20px 0px 8px 0px !important
+    }
+.PerCompCustomDropDown{
+        width:   auto !important;
+        padding: 8px 0px 8px !important;
+    }
+
+.HeaderCompCustomDropDown li,.PerCompCustomDropDown li{
+    text-align:right !important;
+    min-height: 30px !important;
+    color: #605f5f !important;
+}
+.HeaderCompCustomDropDown li.divider,.PerCompCustomDropDown li.divider{
+     min-height: 0 !important;
+
+}
+.HeaderCompCustomDropDown li a{
+    color: inherit !important;
+    padding: 6px 20px 5px 7px!important;
+    font-size: 15px !important;
+}
+.PerCompCustomDropDown li a{
+    color: inherit !important;
+    padding: 6px 8px 5px 7px!important;
+    font-size: 15px !important;
+}
+.HeaderCompCustomDropDown li:hover,.PerCompCustomDropDown li:hover{
+    background-color: #2196F3 !important;
+    color: white !important;
+}
+
+.smallI{
+font-size:15px
+}
+
+.smallColor{
+color:#adaaaa !important;
+}
+
+.waitRedIcon{
+color:rgb(244, 67, 54);
+}
+.Headerspanlbl{
+    margin-right: auto;
+    font-size: 12px;
+    background: #f8f6f6;
+    border-radius: 3px;
+    width: 15px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    color: black;
+}
 .hoverOn{
-    color: #e7e6e6; cursor: pointer;
+    color: black; cursor: pointer;
 }
 
 .hoverOff{
-    color: white; cursor: pointer;
+    color: #6c6b6b; cursor: pointer;
 }
 
 
@@ -280,7 +353,7 @@ cursor:pointer;
 .BackSpinner{
     z-index: 155;
     color: black;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -291,50 +364,679 @@ cursor:pointer;
 
    .customSpainner{
     margin-top:63px;
-    color: white;
+    color: gray;
    }
+i.right {
 
+    margin-left: 4px;
+}
 
+i.left {
+
+    margin-right: 4px;
+}
 
 /***********************Company Page Css**************************/
 
-   .content>.CompanyContentClass{
-   padding-top: 35px;
-    height: 78vh;
-    overflow-y: scroll;
-    position: fixed;
-    top: 73px;
-    width: 85vw;
+.mainDiv{
     display: grid;
-    grid-template-columns: 450px 450px;
-    grid-template-rows: 50px 150px;
-    grid-auto-rows: 150px;
-    grid-gap: 0px;
+    grid-template-columns: auto 300px;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.contentDiv{}
+.adDiv{
+
+    max-height:50%;
+}
+
+   .CompanyContentClass{
+    height: 83wv;
+    /*overflow-y: scroll;*/
+    padding-bottom: 30px;
+
+    display: grid;
+   grid-template-columns: 450px 450px;
+    /* grid-template-rows: 50px 150px;
+    grid-auto-rows: 150px;*/
+    grid-gap: 10px;
     justify-content: center;
    }
 .taskItem {
     grid-column: 1/3;
     grid-gap: 6px;
-    background-color: #8080801a;
+    background-color: rgb(245, 246, 247);
     border-radius: 6px 6px 0px 0px;
     display: flex!important;
-    justify-content: center;
+    margin-bottom:-11px;
+    padding:0px !important;
 }
-    .content>.CompanyContentClass>div{
-    display: grid;
-    border: 1px solid #e9ebee;
-    grid-template-columns: 40fr 100fr 25fr;
-    grid-template-rows: auto;
-    grid-gap: 1px;
+
+.FirstTask{
+            padding: 11px;
+            background: none !important;
+            font-weight: bold;
+            margin-right: 30px;
+            color:#365899;
+            padding-bottom: 3px;
     }
 
-     .content>.CompanyContentClass>div>div{
-      background-color: white;
+
+    .SecondTask{
+            padding: 10px;
+            font-weight: bold;
+            background:none !important;
+            color:#365899;
+            padding-bottom: 3px;
+
+    }
+
+.ThirdTask{
+            padding: 10px;
+            font-weight: bold;
+            background:none !important;
+            color:#365899;
+            padding-bottom: 3px;
+    }
+
+
+    .FirstTask a:hover,.SecondTask a:hover, .ThirdTask a:hover{
+    color: rgb(75, 79, 86);
+    font-weight: bold;
+
+    }
+
+.TabCompactive {
+    color: rgb(75, 79, 86);
+    font-weight: bold;
+    }
+
+.CompanyDivSearch{
+    margin-right: auto;
+    align-self: center;
+    display:flex !important;
+    background: white !important;
+    border: 1px solid #dfdfdf !important;
+    padding: 1px 0px 0px 2px !important;
+        margin-left: 40px !important;
+}
+.CompanyDivSearch> input{
+    width: 366px !important;
+    background: white !important;
+    height: 25px !important;
+    font-size: 12px !important;
+    margin:0px !important;
+    border:0px !important;
+    margin-left: 5px !important;
+}
+
+.searchIcon {
+            border-right: 1px solid #bcbbbb;
+            color: gray;
+}
+
+.btnSearch{
+    padding: 0px;
+    width: 21px;
+    background: white !important;
+    border: 0px;
+}
+
+
+   .footerTask{
+    grid-column: 1/3;
+    display: flex!important;
+    height: 24px;
+    justify-content: end;
+    padding: 10px;
+    color: #b9b8b8;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: white !important;
+    box-shadow: 0px 0px 1px rgba(0,0,0,.12), 0px 1px 1px rgba(0,0,0,.24);
+    padding-right: 30px;
+}
+
+.abtn{
+cursor:pointer;
+}
+
+.Pointer{
+    display: block;
+    position: absolute;
+    margin-top: 21px;
+    margin-right: 38px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white;
+    border-image: initial;}
+
+    .CompanyContentClass>div{
+    display: grid;
+    border: 1px solid #e9ebee;
+    grid-template-columns: 50fr 100fr 60fr;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    padding: 8px;
+    }
+
+     .CompanyContentClass>div>div{
+
       align-content: center;
       display: grid;
       justify-content: flex-start;
      }
 
-     .content>.CompanyContentClass>div>div>span{
+     .CompanyContentClass>div>div>span{
      text-align:right;
+     font-weight:bold;
+     color:black;
      }
+ .CompanyContentClass>div>div>div>i{
+ color:gray !important;
+ }
+
+.btnNewCustomer {
+    line-height: 0px;
+    padding: 0px 1.6rem;
+    height: 27px;
+    line-height: 0px;
+}
+     .RegisterMain{
+         overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+     }
+  .RegisterContent{
+  display:grid;
+  grid-template-columns:50vh auto 50vh;
+  grid-template-rows:  1.2vh;
+}
+     .RegHeader{
+            grid-column: 2/3;
+        }
+
+     .RegContent{
+         display:grid;
+         grid-template-columns:2fr 1fr;
+         grid-template-rows: 6vh auto;
+         justify-content: center;
+         grid-column: 2/3;
+         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+         border-radius: 8px;
+
+        }
+
+        .RegContentHeader{
+        grid-column:1/3;
+
+        align-items: center;
+
+        justify-items: self-start;
+        }
+
+
+        .RegContentContent{
+            text-align: right;
+            padding: 30px;
+            display:flex;
+            flex-direction:column;
+            align-self: center;
+            padding: 0px 30px 20px 60px;
+
+        }
+
+.RegContentContent>div {
+
+flex:1;
+}
+
+
+
+.RegPNotStyled{
+    border:0 !important;
+        }
+
+
+.RegSpanTitle{
+    border:0 !important;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;}
+
+.RegFooter{
+    grid-column: 2/3;
+    display:flex;
+        }
+
+  .RegFooter>div{
+  padding: 12px;
+  font-size: 12px;
+  color: gray;
+  font-weight:bold;
+      }
+
+   .RegAddress{
+    margin-left: auto;
+    font-size: 12px;
+    font-weight:bold;
+    cursor: pointer;
+        }
+
+
+       .input-field label
+       {
+
+    right: 14px;
+    color: #9e9e9e;
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    font-size: 1rem;
+    cursor: text;
+    transition: .2s ease-out;
+       }
+
+  .RegContent  input:not([type]),
+    input[type=text],
+    input[type=password],
+    input[type=email],
+    input[type=url],
+    input[type=time],
+    input[type=date],
+    input[type=datetime],
+    input[type=datetime-local],
+    input[type=tel],
+    input[type=number],
+    input[type=search],
+   textarea.materialize-textarea {
+
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #9e9e9e40;
+    border-radius: 0;
+    outline: none;
+    height: 30px;
+    font-size: 1rem;
+    margin: 0 0 6px 0;
+    width: 398px;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    padding-right: 13px;
+}
+
+
+
+  .file-field{
+ margin-top: 15px;
+  }
+
+  .file-field input.file-path {
+    width: 300px;
+}
+
+.file-field .btn, .file-field .btn-large {
+    float: right;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+
+
+  @media only screen and (max-width: 1000px) {
+
+div.RegisterContent {
+       grid-template-columns: 0vh auto 50vh;
+
+       }
+
+
+ div.RegContent{
+
+       -webkit-box-shadow:none;
+        box-shadow: none;
+       }
+
+ div.RegBtn{
+
+     text-align: center;
+     flex-direction: column;
+     align-items: flex-start;
+ }
+
+}
+
+
+.RegContent [type="radio"]+label:before, [type="radio"]+label:after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    top: 0;
+    margin: 4px;
+    width: 16px;
+    height: 16px;
+    z-index: 0;
+    transition: .28s ease;
+
+}
+
+
+.RegContent  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    transition: .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 8%;
+    float: right;
+    color:black;
+}
+
+
+.RegHr{
+    position: absolute;
+    top: 624px;
+    z-index: 181;
+    border: 0px;
+    border-bottom: 1px solid #80808026;
+    width: 410px;
+}
+
+
+.RegContent .file-field .btn, .file-field .btn-large {
+    float: right;
+    height: 2rem;
+    line-height: 2rem;
+    background: #2196F3;
+}
+
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2196F3;
+    box-shadow: 0 1px 0 0 #2196F3;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #2196F3;
+}
+
+.RegContent [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: #2196F3;
+}
+
+.RegContent [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid #2196F3;
+}
+
+
+.UserWaitActivation {
+
+    color: gray;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.RegValidation
+{
+    background: #ff000036;
+    color: #E91E63 !important;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    color: white;
+    padding: 6px;
+    text-align: center
+}
+
+.EmailSend{
+    background: #0ab6103b;
+    color: #008000c7 !important;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    color: white;
+    padding: 6px;
+    text-align: center
+}
+
+.RegDeValidation
+{display:none;}
+
+
+/**********************************LoginPageCss*************************************/
+
+.LoginContanier {
+    grid-template-columns: 70fr 44fr 70fr;
+    display: grid;
+    padding-top: 40px;
+}
+
+
+.LoginContent{
+ grid-template-columns: 40fr;
+ display: grid;
+ grid-template-rows: 10px auto;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+      0 3px 1px -2px rgba(0,0,0,0.12),
+      0 1px 5px 0 rgba(0,0,0,0.2);
+      border-radius:8px;
+}
+
+
+.LoginLSide{
+
+}
+
+.LoginRightSide{
+
+}
+
+.LoginContentHeader{
+    display: flex;
+    align-items: center;
+}
+
+
+.LoginError{background: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow:
+     0 2px 2px 0 rgba(0,0,0,.14),
+     0 3px 1px -2px rgba(0,0,0,.12),
+     0 1px 5px 0 rgba(0,0,0,.2);
+    padding: 4px;}
+
+
+    .LoginContentContentField{
+            display: grid;
+    grid-gap: 15px;
+        padding: 48px 40px 36px;
+
+    }
+
+
+    .LoginContent h4 {
+    font-size: 1.6rem;
+    color: black;
+    line-height: 110%;
+    margin: .5rem 0 .4rem 0;
+}
+
+.LoginContent h6 {
+    font-size: 1rem;
+    line-height: 110%;
+    margin: .5rem 0 .4rem 0;
+    color: #2e2c2c;
+}
+
+
+.LoginContentContentField > div:nth-child(5n){
+display:flex;
+}
+
+
+.LoginText{
+width:350px !important;
+}
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 200ms ease-in;
+}
+
+
+.myHov:hover{
+color:black;
+}
+
+.CompaniesRequestContainer{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 450px;
+    background: #fff;
+    border: 1px solid rgba(100, 100, 100, .4);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    color: #1d2129;
+
+    top: 66px;
+    z-index: 1;
+}
+
+.CompaniesRequestContent{
+   max-height: 500px;
+   overflow-y: auto;
+   padding-bottom: 20px;
+
+}
+
+.CompaniesRequestHeader{
+    border-bottom: 1px solid #97979752;
+    padding: 5px;
+    font-size:15px;
+}
+
+.CompaniesRequestFooter{
+}
+
+.CompaniesRequestContent>div{
+    padding: 5px;
+    border-bottom: 1px solid 1px solid #00599f14;
+    align-items: center;
+}
+
+
+.btnCat2{
+    margin: 5px !important;
+    background: #2196F3  !important;
+    padding: 0 1.5rem  !important;
+    height: 23px  !important;
+    line-height: 0px  !important;
+    font-size: 13px  !important;
+    box-shadow: 0 0 0 0;
+    font-weight: bold !important;
+
+}
+
+.btnCat3{
+ margin: 5px !important;
+    background:  #f5f6f7  !important;
+    padding: 0 1.5rem  !important;
+    height: 23px  !important;
+    line-height: 0px  !important;
+    font-size: 13px  !important;
+    color: gray;
+    border: 1px solid #cacaca;
+    box-shadow: 0 0 0 0;
+    font-weight: bold !important;
+}
+
+
+.CustomBadgeClass{
+        padding: 1px 5px 1px 5px !important;
+        min-width: 0rem !important;
+        height: 16px !important;
+        color: #ffffff !important;
+        background: red;
+        border-radius: 3px !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        position: absolute !important;
+        top: 15px !important;
+        right: 196px !important;
+        line-height: inherit !important;
+}
+
+.SeeMoreReqComp{
+border: 1px solid #d1cfcf  !important;
+    margin: 4px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #2196F3;
+    font-weight: bold;
+    display:none;
+}
+
+
+.ReactLoadingStyle1{
+    fill: #747878 !important;
+    height: 25px !important;
+    width: 25px !important;
+    position: absolute;
+    margin-right: 66px;
+    margin-top: 4px;
+}
+
+.ReactLoadingStyle2{
+    fill: #747878 !important;
+    height: 25px !important;
+    width: 25px !important;
+
+}
+
+.btn:disabled{
+    background: #96deff !important;
+    color: white !important;
+}
+.btn.disabled:hover{
+    background: #96deff !important;
+    color: white !important;
+}

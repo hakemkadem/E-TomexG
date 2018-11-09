@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-import {notes,owner,auth,newUsers} from '../../actions';
+import {notes,owner,auth,companyStore} from '../../actions';
 import $ from 'jquery';
 import CompanyContent from './CompanyContent';
 
@@ -45,7 +45,7 @@ this.setState({ clickSelection1: false,clickSelection2: true });
 
 render(){
 let spinnerElem;
-if(this.props.newUsers.isLoading)
+if(this.props.companyStore.isLoading)
     {
     spinnerElem =  (<div className="BackSpinner">
  <i className="fa fa-cog fa-spin fa-3x fa-fw customSpainner"></i>
@@ -56,7 +56,7 @@ if(this.props.newUsers.isLoading)
     }
 return (
  <div className="Admincontainer">
-{spinnerElem}
+
  <div className="AdminRMenu">
     <div className={ this.state.Costhover1||this.state.clickSelection1 ?"CustomerhoverOn" :"CustomerhoverOff"}
                             onMouseEnter={()=>this.CustomhoverOn('1')}
@@ -90,20 +90,13 @@ return (
 
 const mapStateToProps = state => {
   return {
-    newUsers: state.newUsers,
+    companyStore: state.companyStore,
     user: state.auth.user,
     isAuth:state.auth,
   }
 }
 
-const mapDispatchToProps = dispatch => {
-  return {
-    fetchNewUser: () => {
-      dispatch(newUsers.fetchNewUser());
-    }
 
-}
-}
-export default connect(mapStateToProps, mapDispatchToProps)(CompanyHome);
+export default connect(mapStateToProps)(CompanyHome);
 
 

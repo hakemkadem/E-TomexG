@@ -3,11 +3,14 @@ import {connect} from 'react-redux';
 import {notes,owner,auth} from '../actions';
 import {Link} from 'react-router-dom';
 import $ from 'jquery';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 class PonyNote extends Component {
 state = {
   text: "",
   updateNoteId: null,
-  name:""
+  name:"",
+   items: ["hello", "world", "click", "me"]
 }
 
 componentDidMount()
@@ -41,6 +44,18 @@ submitNote = (e) => {
   this.resetForm();
 }
 
+
+  handleAdd=()=> {
+    const newItems = this.state.items.concat([prompt("Enter some text")]);
+    this.setState({ items: newItems });
+  }
+
+  handleRemove=(i)=> {
+    let newItems = this.state.items.slice();
+    newItems.splice(i, 1);
+    this.setState({ items: newItems });
+  }
+
   render() {
    let AdminEl;
      if(this.props.isAuth.isSuperuser){
@@ -49,12 +64,26 @@ submitNote = (e) => {
         )
         }
 
-
-
-
+ const items = this.state.items.map((item, i) => (
+      <div  onClick={() => this.handleRemove(i)}>
+        {item}
+      </div>
+    ));
 
     return (
       <div>
+
+
+<button onClick={this.handleAdd}>Add Item</button>
+        <ReactCSSTransitionGroup
+          transitionName="example"
+          transitionEnterTimeout={500}
+          transitionLeaveTimeout={300}
+        >
+          {items}
+        </ReactCSSTransitionGroup>
+
+
       <i className="fa fa-plus"></i>
         <h2 id="h2">Welcome to PonyNote!</h2>
         <hr />

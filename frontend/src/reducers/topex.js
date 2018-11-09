@@ -2,6 +2,7 @@ const initialState ={
 newUsers:[],
 isLoading: true,
 };
+
 export default function newUsers (state=initialState,action){
 let newUsersList = state.newUsers.slice();
         switch(action.type)
@@ -29,4 +30,3 @@ let newUsersList = state.newUsers.slice();
                 return state;
             }
 }
-

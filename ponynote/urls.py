@@ -31,8 +31,13 @@ urlpatterns = [
     path(''.join('register'), TemplateView.as_view(template_name="index.html")),
     path(''.join('company'), TemplateView.as_view(template_name="index.html")),
     path(''.join('wait'), TemplateView.as_view(template_name="index.html")),
+    path(''.join('confirmResetPassword'), TemplateView.as_view(template_name="index.html")),
+
     path('api/', include(endpoints)),
     path('api1/',include(topexEndpoint)),
     path('test/',TestView),
     path('api/auth/', include('knox.urls')),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
+    path('auth/', include('djoser.urls.jwt')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

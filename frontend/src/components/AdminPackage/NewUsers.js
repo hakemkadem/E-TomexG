@@ -39,7 +39,8 @@ return (
 
           <tr>
             <th>ت</th>
-            <th>اسم الشركة</th>
+            <th>معلومات الشركة</th>
+
             <th>نوع الاشتراك</th>
             <th>رمز الاجازة</th>
             <th>العنوان</th>
@@ -55,7 +56,10 @@ return (
          {this.props.newUsers.map((u, id) => (
            <tr key={`note_${id}`}>
             <td>{id+1}</td>
-            <td>{u.User.username} </td>
+            <td><img src={u.profile_pic} width="100px"/>
+           <br/>{u.User.username}
+            </td>
+
             <td>{u.user_type}</td>
             <td>{u.license} </td>
             <td>{u.Address}</td>
